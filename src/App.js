@@ -1,19 +1,23 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Loadata from './components/Loadata';
-import Home from './components/home';
+import Currency from './components/currency';
+import Currencyrate from './components/currencyrate';
 import NotFound from './components/notfound';
+import Loadata from './components/Loadata';
 
 function App() {
   return (
-    <div className="container-app">
+    <>
       <Loadata />
       <Routes>
-        <Route path="/" element={<Home />} exact />
-        <Route path="/currencies/list" element={<Home />} exact />
-        <Route path="*" element={<NotFound />} exact />
+        <Route exact path="/" element={<Currency />} />
+        <Route exact path="/currencies" element={<Currency />} />
+        <Route exact path="/currencies/code" element={<Currency />} />
+        <Route exact path="/details/currency" element={<Currencyrate />} />
+        <Route exact path="/details/currency/:code" element={<Currencyrate />} />
+        <Route exact path="*" element={<NotFound />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
