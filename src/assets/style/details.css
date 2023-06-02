@@ -40,10 +40,12 @@
   width: 50%;
   max-width: 400px;
 }
+
 .rate-list {
   display: flex;
   align-items: center;
 }
+
 .rate-icon {
   display: flex;
   background: #ff69b4;
@@ -56,4 +58,23 @@
   margin: 10px;
   font-size: 13px;
   text-decoration: none;
+}
+
+@media (max-width: 548px) {
+  .rate-icon {
+    padding: 6px;
+    margin: 6px;
+    font-size: 12px;
+  }
+
+  .map-image {
+    max-height: 150px;
+    height: 100%;
+    width: 47%;
+    max-width: 300px;
+  }
+
+  .details-head {
+    font-size: 12px;
+  }
 }

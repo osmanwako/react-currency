@@ -81,3 +81,32 @@
   padding: 8px;
   text-decoration: none;
 }
+
+@media (max-width: 548px) {
+  .currency-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .currency-title {
+    font-size: 12px;
+  }
+
+  .currency-name {
+    font-size: 16px;
+  }
+
+  .view-rate {
+    font-size: 17px;
+  }
+
+  .world-map {
+    max-width: 200px;
+    width: 100%;
+    height: 150px;
+    margin-top: 0;
+    overflow: hidden;
+  }
+}

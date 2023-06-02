@@ -20,13 +20,13 @@ const Details = (data) => {
         <img src={currencyicon} alt="Most known Currency" className="map-image" />
       </div>
       <div className="details-head">
-        <h4>
+        <h4 className="details-title">
           {countries[0]?.description || 'Unkown'}
           {' '}
           Currency Exchange Rate:
           {' '}
         </h4>
-        <h4>Latest</h4>
+        <h4 className="details-title">Latest</h4>
       </div>
       {
         currencies.map((currency) => (

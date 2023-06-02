@@ -38,3 +38,22 @@
 .header-mic {
   margin-right: 20px;
 }
+
+@media (max-width: 548px) {
+  .nav-currency {
+    padding: 20px 10px;
+  }
+
+  .header-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nav-input {
+    font-size: 15px;
+  }
+
+  .nav-year {
+    font-size: 16px;
+  }
+}

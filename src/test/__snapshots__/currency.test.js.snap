@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Currency /> 1. Test Date render Correctily 1`] = `
+<div
+  className="container-app"
+>
+  <div
+    className="nav-currency"
+  >
+    <a
+      className="nav-left"
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="back"
+        className="header-icon"
+        src="back.png"
+      />
+      <h2>
+        2023
+      </h2>
+    </a>
+    <h3
+      className="nav-input"
+    >
+      World Currency Application 
+    </h3>
+    <div
+      className="nav-right"
+    >
+      <img
+        alt="mic"
+        className="header-icon header-mic"
+        src="mic.png"
+      />
+      <img
+        alt="setting"
+        className="header-icon"
+        src="setting.png"
+      />
+    </div>
+  </div>
+  <main
+    className="home-root"
+  >
+    <div
+      className="header"
+    >
+      <img
+        alt="World Map"
+        className="world-map"
+        src="worldmap.png"
+      />
+    </div>
+    <div
+      className="currency-title"
+    >
+      <h4>
+        List World Currency Exchange
+      </h4>
+    </div>
+    <div
+      className="content"
+    >
+      <a
+        className="container"
+        href="/details/currency/ETB"
+        onClick={[Function]}
+      >
+        <div
+          className="currency-code"
+        >
+          <span
+            className="currency-icon"
+          >
+            ETB
+          </span>
+          <p
+            className="currency-name"
+          >
+            Ethiopian Birr
+          </p>
+        </div>
+        <div
+          className="btn-reaction"
+        >
+          <h2
+            className="view-rate"
+          >
+            View
+          </h2>
+        </div>
+      </a>
+      <a
+        className="container container-odd"
+        href="/details/currency/USD"
+        onClick={[Function]}
+      >
+        <div
+          className="currency-code"
+        >
+          <span
+            className="currency-icon"
+          >
+            USD
+          </span>
+          <p
+            className="currency-name"
+          >
+            USA Dollar
+          </p>
+        </div>
+        <div
+          className="btn-reaction"
+        >
+          <h2
+            className="view-rate"
+          >
+            View
+          </h2>
+        </div>
+      </a>
+      <a
+        className="container container-odd"
+        href="/details/currency/ALL"
+        onClick={[Function]}
+      >
+        <div
+          className="currency-code"
+        >
+          <span
+            className="currency-icon"
+          >
+            ALL
+          </span>
+          <p
+            className="currency-name"
+          >
+            Albenian  Alen
+          </p>
+        </div>
+        <div
+          className="btn-reaction"
+        >
+          <h2
+            className="view-rate"
+          >
+            View
+          </h2>
+        </div>
+      </a>
+      <a
+        className="container"
+        href="/details/currency/AFG"
+        onClick={[Function]}
+      >
+        <div
+          className="currency-code"
+        >
+          <span
+            className="currency-icon"
+          >
+            AFG
+          </span>
+          <p
+            className="currency-name"
+          >
+            Afganistan Afghain
+          </p>
+        </div>
+        <div
+          className="btn-reaction"
+        >
+          <h2
+            className="view-rate"
+          >
+            View
+          </h2>
+        </div>
+      </a>
+    </div>
+  </main>
+</div>
+`;
