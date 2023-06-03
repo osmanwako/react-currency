@@ -1,55 +1,17 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
+# React Currency
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
+- [📖 React-currency](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -58,68 +20,47 @@ After you're finished please remove all the comments and instructions!
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 React-currency <a name="react-currency"></a>
 
-# 📖 [your_project_name] <a name="about-project"></a>
+## Redux toolkit,React and API Setup
 
-> Describe your project in 1 or 2 sentences.
+**React-currency** A currency exchange web app created by React is a web application that allows users to see all list currency code and description.
+The app get lists of currency and latest currency exchange rates from an external API .
+**The app contains three sections**
 
-**[your_project__name]** is a...
+- A section list Currency code and description as home page.
+- A section display latest currency exchange rates for ever list of currency
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+    <li>Axios for API</li>
+    <li>jest</li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
+
 </details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+## Key Features
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- **Home Page**
+- **Details Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -127,162 +68,100 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+<ul>
+  <li>Vs code</li>
+  <li>Git Bash</li>
+  <li>npm packages</li>
+</ul>
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+
+cd my-dir
+git clone https://github.com/osmanwako/react-currency.git
+
 ```
---->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Install
 
-Install this project with:
+1. Clone the repo:https://github.com/osmanwako/react-currency.git
 
-<!--
-Example command:
+2. Install npm packages:
+   npm install
+3. npm start
 
-```sh
-  cd my-project
-  gem install
-```
---->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
 To run tests, run the following command:
 
-<!--
-Example command:
+<ul>
+<li>run npm i</li>
+<li>run npm build</li>
+</ul>
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+### Run Tests
 
-### Deployment
+to run tests, run the following command
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
+<ul>
+  <li>npx eslint "**/*.js"</li>
+  <li>npx stylelint "**/*.css"</li>
+  <li>npm test </li>
+</ul>
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Authors**
 
-👤 **Author1**
+👤 Osman Wako
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Osman Wako](https://github.com/osmanwako)
+- Twitter: [@Osman Wako](https://twitter.com/BantuFita)
+- LinkedIn :[LinkedIn](https://www.linkedin.com/in/osmanwako411/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+## Future Features
 
-## 🔭 Future Features <a name="future-features"></a>
+-[Transitions using CSS]
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Add live search input]**
+- [ ] **[Add Css transition]**
+- [ ] **[Add Animations Features]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🚀 Project Demo <br>
+<a href="https://currency-exchange-webapp.onrender.com/">Live demo link</a>
 
-<!-- CONTRIBUTING -->
+[Demo video](https://www.loom.com/share/14b6b5c107e844d1a0e2f31c5ac182ab)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page].
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project to give a positive feedback and comments that will go along way in making the project even better.your support matters
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+we would like to express our gratitude to Microverse for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [MIT](MIT.md) licensed.

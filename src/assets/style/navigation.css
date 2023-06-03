@@ -1,0 +1,59 @@
+* {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-currency {
+  height: 40px;
+  background: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+
+.header-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  flex-grow: 0;
+}
+
+.nav-input {
+  flex-grow: 1;
+  text-align: center;
+  padding-left: 10px;
+  opacity: 0.8;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-mic {
+  margin-right: 20px;
+}
+
+@media (max-width: 548px) {
+  .nav-currency {
+    padding: 20px 10px;
+  }
+
+  .header-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nav-input {
+    font-size: 15px;
+  }
+
+  .nav-year {
+    font-size: 16px;
+  }
+}

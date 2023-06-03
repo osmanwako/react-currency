@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Should renders correctly 1`] = `
+<div
+  className="nav-currency"
+>
+  <a
+    className="nav-left"
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="back"
+      className="header-icon"
+      src="back.png"
+    />
+    <h2>
+      2023
+    </h2>
+  </a>
+  <h3
+    className="nav-input"
+  >
+    World Currency Application 
+  </h3>
+  <div
+    className="nav-right"
+  >
+    <img
+      alt="mic"
+      className="header-icon header-mic"
+      src="mic.png"
+    />
+    <img
+      alt="setting"
+      className="header-icon"
+      src="setting.png"
+    />
+  </div>
+</div>
+`;
