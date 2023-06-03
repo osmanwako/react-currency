@@ -140,7 +140,7 @@ to run tests, run the following command
 ## 🚀 Project Demo <br>
 <a href="https://currency-exchange-webapp.onrender.com/">Live demo link</a>
 
-[Demo video](https://drive.google.com/file/d/1axTnxWs8wAVq0KWad0sF1a69oX-vnBsu/view?usp=sharing)
+[Demo video](https://www.loom.com/share/14b6b5c107e844d1a0e2f31c5ac182ab)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
